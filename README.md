@@ -105,37 +105,42 @@ Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrast
 
 
 ### Zespół programistyczny
-1 osoba, 
-Doświadczenie = 1
+
+#### 1 osoba:
+
++ Doświadczenie = 1
 bo to autor, który już wykonywał prototyp
 
-Doskonałość = 0.2
++ Doskonałość = 0.2
 gdyż to faza wytwarzania i potrzeba przetstować różne warianty
 
-Specjalizacja = 0.2
++ Specjalizacja = 0.2
 Wiele etapów wytwarzania jest niezdefiniowanych z powodu wielu warstw środowiska
 
-Awaryjność = 3/5 = 0.6
++ Awaryjność = 3/5 = 0.6
 Biblioteki zewnętrzne oraz srodowisko
 
-Prostota = 0,13
++ Prostota = 0,13
 (2/5) /3 
 
-Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+#### Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
 Efektywność = 1*0.2*0.2*0.6*0.13
 
 1*0,2*0,2*0,6*0,13=0,0031
+
 1/0,0031=322
 
 To oznacza, że wykonując idealną iterację w ciągu 1 Minuty,
 iteracja wykonywana w zmiennych i trudnych warunkach może zająć 322 razy dłużej,
 
 gdyby było mniej warstw środowiska mająych wpływ na wynik i tego typu zmiany byłyby już wcześniej wykonywane to można by było obniżyć ryzyko o 26 razy
-Doskonałość = 1
-Specjalizacja = 1
+
++ Doskonałość = 1
++ Specjalizacja = 1
 
 0,6*0,13=0,078
+
 1/0,078=12
 
 322/12=26
