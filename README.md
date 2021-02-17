@@ -70,7 +70,7 @@ Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza
 ## Prostota
 Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrasta poziom trudności
 
-    Prostota = (ilość już wykonanych dokładnie takich samych funkcjonalnie zadań / ilości różnic ) / ilość warstw/miejsc które te różnice dotyczą 
+    Prostota = (ilość już wykonanych dokładnie takich samych funkcjonalnie zadań / ilości różnic ) / ilość warstw, które te różnice dotyczą 
 
 
 # Obliczenia Efektywność wytwarzania na przykładach
