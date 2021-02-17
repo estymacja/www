@@ -78,8 +78,7 @@ Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrast
 
 # Obliczenia Efektywność wytwarzania na przykładach
     
-    Efektywność 
-    = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
 
 
