@@ -24,9 +24,16 @@ W programowaniu komputerowym optymalizacja oprogramowania oznacza działania maj
 
 Jest to przykładowy sposób podejścia do porównania efektywności wykonania zadania przez różne osoby
 Dzięki czemu można określić nie tylko trudność zdania, ale też potencjał do szybszego wykonania przez konkretną osobę.
+ 
 To ważny fakt, a przecież każdy z nas się różni poprzez doświadczenie i efektywność (talent) wykonaywania specyficznych zadań.
-Co istotne metoda ta może być stosowana na podstawie już wykonanych iteracji i badać dane historyczne w systemie opartym o [GitOps](http://www.gitops.pl/)
-gdzie jedna iteracja to jeden (commit)push na serwer repozytorium i monitorowanie rezultatu testów w warunkach uruchamiania w chmurze a nie na lokalnym środowisku.
+
+Jest to uzupełnienie do Agile-owej techniki nazywanej Planning Poker [Jak estymować? cz. 2 - techniki estymacji - Agile Hunters](https://agilehunters.com/jak-estymowac-techniki-estymacji/)
+
+Przy dużym stopniu automatyzacji metoda ta może być stosowana na podstawie już wykonanych iteracji i badać dane historyczne w systemie opartym o [GitOps](http://www.gitops.pl/)
+gdzie jedna iteracja to jeden commit-push na serwer repozytorium i monitorowanie rezultatu testów w warunkach uruchamiania w chmurze a nie na lokalnym środowisku.
+
+Wówczas łatwo porównać dane różnych członków zespołu i zbudować graficzną reprezentację silnych i słabych stron, specyficznej dla każdego i pozwalające w przyszłości przydzielać zadania, które będą bardziej intuicyjne dla konkretnej osoby, przez co czas i energia zużyta na wykonanie zadania będzie niższa.
+
 
 ## Efektywność wytwarzania*
 
