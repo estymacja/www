@@ -104,7 +104,8 @@ Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrast
 + pisanie
 
 
-### Zespół programistyczny
+### Zadanie nr 1
+wdrożenie zmiany, która wcześniej nie miała miejsca
 
 #### 1 osoba:
 
@@ -144,3 +145,31 @@ gdyby było mniej warstw środowiska mająych wpływ na wynik i tego typu zmiany
 1/0,078=12
 
 322/12=26
+
+### Zadanie nr 2
+wdrożenie zmiany, która była już wprowadzana, np zmiany nazwy zmiennej/klasy/stałej prywatnej w jednym pliku
+
+#### 1 osoba:
+
++ Doświadczenie = 1
+bo to autor, który już wykonywał prototyp
+
++ Doskonałość = 1
+Gdyż osoba ta wykonywała to wielokrotnie bez błędu
+
++ Specjalizacja = 1
+Jedna warstwa
+
++ Awaryjność = 1/1
+Bo zmiana dotyczy zmiennej, która nie występuje w innych plikach, to zmienna prywatna klasy
+
++ Prostota = 1/1/1 = 1
+
+
+#### Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+
+Efektywność = 1
+to znaczy, że dokonując tej zmiany, nie ma szansy nic się zepsuć, gdyż to nie wpływa na inne warstwy systemu
+Zadanie jest jasno sprecyzowane, nie ma żadnych zależności, dlatego jeśli cykl wykonania normalnie zajmuje 1 Minutę, to 
+nie wystąpi żadno ryzyko/błąd mogący zwielokrotnić ilość iteracji
+
