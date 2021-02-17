@@ -22,12 +22,17 @@ W programowaniu komputerowym optymalizacja oprogramowania oznacza działania maj
 
 # Wzory - wyznaczanie optymizacji
 
+Jest to przykładowy sposób podejścia do porównania efektywności wykonania zadania przez różne osoby
+Dzięki czemu można określić nie tylko trudność zdania, ale też potencjał do szybszego wykonania przez konkretną osobę.
+To ważny fakt, a przecież każdy z nas się różni poprzez doświadczenie i efektywność (talent) wykonaywania specyficznych zadań.
+Co istotne metoda ta może być stosowana na podstawie już wykonanych iteracji i badać dane historyczne w systemie opartym o [GitOps](http://www.gitops.pl/)
+gdzie jedna iteracja to jeden (commit)push na serwer repozytorium i monitorowanie rezultatu testów w warunkach uruchamiania w chmurze a nie na lokalnym środowisku.
 
 ## Efektywność wytwarzania*
 
 *pojedynczej osoby w zespole
 
-jest zależna od doświadczenia i doskonałości danej osoby procesach iteracji
+jest zależna od doświadczenia i doskonałości danej osoby w procesach iteracji
 Specjalizacja procesu oraz niska Awaryjność systemu i prosota zadania(zmiany) wpływa na efektywność wykonania iteracji.
 
     Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
