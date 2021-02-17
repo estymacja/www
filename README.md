@@ -30,12 +30,14 @@ W programowaniu komputerowym optymalizacja oprogramowania oznacza działania maj
 ## Efektywność wytwarzania
 Efektywność wytwarzania jest zależna od doświadczenia i doskonałości w powtarzaniu a także efektywności iteracji
 
-    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Ilość procesów
+    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność
 
 ## Doświadczenie
 Doświadczenie jest równe 1, gdy jest najwyższe, gdy dana osoba miała możliwość uczestniczenia na każdym etapie w procesie wytwarzania
 
-    Doświadczenie = ilość wykonywanych procesów / ilość wszystkich procesów w iteracji
+    Doświadczenie = ilość wykonywanych procesów* / ilość wszystkich procesów*
+    
+*w iteracji
 
 ## Doskonałość
 Doskonałość jest równa 1, jest tym mniejsza im mniej razy dane zadanie zostało wykonane poprawnie,
@@ -48,11 +50,21 @@ Gdy użyjemy lepszej technologii jakość wykonania pojedynczej próby może ule
 Specjalizacja (Efektywność iteracji) udowadnia, że lepiej mieć więcej procesów, ale powtarzalnych niż mniej ale definiowalnych
 pozwala też określić na ile wystepuje potrzeba modularyzacji procesów wytwarzania, ich podziału na bardziej wyspecjalizowane 
 
-    Specjalizacja = ilość stałych powtarzalnych procesów / ilość zależnych lub niezdefiniowanych procesów   
+    Specjalizacja = stałe procesy / zmienne procesy
+    
++ stałe procesy = ilość powtarzalnych procesów
+
++ zmienne procesy = ilość zależnych/niezdefiniowanych/zmiennych procesów   
 
 
-## Ilość procesów
-ilość procesów składających się na 1 iterację
++ ilość procesów składających się na 1 iterację
+
+
+## Awaryjność systemu
+Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza samym procesem
+
+    Awaryjność = ilość kontrolowanych warstw / ilość warstw  w ogóle (mających wpływ na rezultat)
+
 
 
 # Obliczenia Efektywność wytwarzania na przykładach
