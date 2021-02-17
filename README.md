@@ -7,14 +7,14 @@
 # Definicja - znaczenie optymizacji
 
 ## Optymizacja
-https://sjp.pwn.pl/sjp/optymizacja;2495887
+[optymizacja – Słownik języka polskiego PWN](https://sjp.pwn.pl/sjp/optymizacja;2495887)
 
 optymizacja «spowodowanie optymalnego przebiegu danego procesu technologicznego» 
 
 
 
 ## Optymalizacja
-https://pl.wikipedia.org/wiki/Optymalizacja
+[Optymalizacja – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/Optymalizacja)
 
 
 Optymalizacja – metoda wyznaczania najlepszego (optymalnego) rozwiązania (poszukiwanie ekstremum funkcji) z punktu widzenia określonego kryterium (wskaźnika) jakości (np. kosztu, drogi, wydajności).
