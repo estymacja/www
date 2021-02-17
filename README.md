@@ -65,17 +65,21 @@ pozwala też określić na ile wystepuje potrzeba modularyzacji procesów wytwar
 ## Awaryjność środowiska systemu
 Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza samym procesem
 
-    Awaryjność = ilość kontrolowanych warstw / ilość warstw  w ogóle (mających wpływ na rezultat)
+    Awaryjność 
+    = ilość kontrolowanych warstw / ilość warstw  w ogóle (mających wpływ na rezultat)
 
 ## Prostota
 Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrasta poziom trudności
 
-    Prostota = (ilość już wykonanych dokładnie takich samych funkcjonalnie zadań / ilości różnic ) / ilość warstw, które te różnice dotyczą 
+    Prostota 
+    = (ilość już wykonanych dokładnie takich samych funkcjonalnie zadań / ilości różnic ) 
+                / ilość warstw(zależnych miejsc), które te różnice dotyczą 
 
 
 # Obliczenia Efektywność wytwarzania na przykładach
     
-    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+    Efektywność 
+    = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
 
 
