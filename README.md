@@ -27,37 +27,37 @@ W programowaniu komputerowym optymalizacja oprogramowania oznacza działania maj
 # Wzory - wyznaczanie optymizacji
 
 
-## Efektywność wytwarzania
+## Efektywność wytwarzania (pojedynczej osoby w zespole)
 Efektywność wytwarzania jest zależna od doświadczenia i doskonałości w powtarzaniu a także efektywności iteracji
 
     Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność
 
-## Doświadczenie
+## Doświadczenie osoby w kontekście 1 iteracji
 Doświadczenie jest równe 1, gdy jest najwyższe, gdy dana osoba miała możliwość uczestniczenia na każdym etapie w procesie wytwarzania
 
     Doświadczenie = ilość wykonywanych procesów* / ilość wszystkich procesów*
     
 *w iteracji
 
-## Doskonałość
+## Doskonałość wykonania jednej czynności/procesu
 Doskonałość jest równa 1, jest tym mniejsza im mniej razy dane zadanie zostało wykonane poprawnie,
 Gdy użyjemy lepszej technologii jakość wykonania pojedynczej próby może ulec zwiększeniu co pozwalając zwiększyć doskonałość
 
     Doskonałość = ilość udanych prób / ilość prób
 
 
-## Specjalizacja
+## Specjalizacja procesu (nie człowieka)
 Specjalizacja (Efektywność iteracji) udowadnia, że lepiej mieć więcej procesów, ale powtarzalnych niż mniej ale definiowalnych
 pozwala też określić na ile wystepuje potrzeba modularyzacji procesów wytwarzania, ich podziału na bardziej wyspecjalizowane 
 
     Specjalizacja = stałe procesy / zmienne procesy
     
-+ stałe procesy = ilość powtarzalnych procesów
++ stałe procesy = ilość powtarzalnych procesów*
 
-+ zmienne procesy = ilość zależnych/niezdefiniowanych/zmiennych procesów   
++ zmienne procesy = ilość zależnych/niezdefiniowanych/zmiennych procesów*   
 
 
-+ ilość procesów składających się na 1 iterację
+*ilość procesów składających się na 1 iterację
 
 
 ## Awaryjność systemu
@@ -69,7 +69,27 @@ Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza
 
 # Obliczenia Efektywność wytwarzania na przykładach
 
-Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Ilość procesów
+    
+    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność
 
+
+## W procesie wytwarzania oprogramowania opartego o framework laravel są 3 warstwy dotyczące funkcjonowania oprogramowania oraz 3 warstwy dotyczące uruchomienia
+
+### Warstwy oprogramowania:
+
++ Frontend
++ Backend
+    +   framework, warstwa struktury
+    +   warstwa kodu, język programowania
+    +   warstwa danych, bazy danych
+    
++ Environment
+    +   system
+    +   usługi   
+        +   http apache
+        +   mysql baza danych
+
+### Sposób wytwarzania:
++
 
 
