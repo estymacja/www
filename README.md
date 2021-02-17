@@ -16,33 +16,38 @@ optymizacja «spowodowanie optymalnego przebiegu danego procesu technologicznego
 ## Optymalizacja
 [Optymalizacja – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/Optymalizacja)
 
-
-Optymalizacja – metoda wyznaczania najlepszego (optymalnego) rozwiązania (poszukiwanie ekstremum funkcji) z punktu widzenia określonego kryterium (wskaźnika) jakości (np. kosztu, drogi, wydajności).
-
-Optymalizacja jest także zdefiniowana w badaniach operacyjnych, gdzie wykorzystywana jest do rozwiązywania praktycznych problemów (np. ekonomicznych).
-
+Metoda wyznaczania najlepszego (optymalnego) rozwiązania (poszukiwanie ekstremum funkcji) z punktu widzenia określonego kryterium (wskaźnika) jakości (np. kosztu, drogi, wydajności).
 W programowaniu komputerowym optymalizacja oprogramowania oznacza działania mające na celu programu komputerowego, tak by czas jego działania oraz używane zasoby komputerowe takie jak pamięć, użycie procesora, ilość przesyłanych danych potrzebnych do jego uruchomienia i działania były jak najmniejsze. Działaniami w tym zakresie są optymalizacja kodu wynikowego, wybór wydajniejszych algorytmów i kodowania danych. 
 
 
 # Wzory - wyznaczanie optymizacji
 
 
-## Efektywność wytwarzania (pojedynczej osoby w zespole)
-Efektywność wytwarzania jest zależna od doświadczenia i doskonałości danej osoby procesach iteracji
-Specjalizacja procesu oraz niska Awaryjność systemu i prosota zadania/zmiany wpływa na efektywnosć wykonania iteracji.
+## Efektywność wytwarzania*
+
+*pojedynczej osoby w zespole
+
+jest zależna od doświadczenia i doskonałości danej osoby procesach iteracji
+Specjalizacja procesu oraz niska Awaryjność systemu i prosota zadania(zmiany) wpływa na efektywność wykonania iteracji.
 
     Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
+Wartość jest większa od 1, krotność jest wyznacznikiem ryzyka skali niepewności co do oczekiwanego rezultatu
+
+
 ## Doświadczenie osoby w kontekście 1 iteracji
-Doświadczenie jest równe 1, gdy jest najwyższe, gdy dana osoba miała możliwość uczestniczenia na każdym etapie w procesie wytwarzania
+
+Doświadczenie jest równe 1, gdy osoba miała możliwość uczestniczenia na każdym etapie w procesie wytwarzania w przeszłości
 
     Doświadczenie = ilość wykonywanych procesów* / ilość wszystkich procesów*
     
 *w iteracji
 
 ## Doskonałość wykonania jednej czynności/procesu, 
-Doskonałość jest równa 1, jest tym mniejsza im mniej razy dane zadanie zostało wykonane poprawnie,
-dotyczy pisania testów, czy iteracji wytwarzania funkcjonalności, gdzie po zdefiniowaniu od razu kod działa
+
+Doskonałość jest równa 1 gdy osoba wykonuje proces bezbłednie, 
+wartość jest tym mniejsza im mniej razy dane zadanie zostało wykonane poprawnie,
+dotyczy np. iteracji wytwarzania funkcjonalności, gdzie po jej wprowadzeniu kod od razu działa poprawnie.
 Gdy użyjemy lepszej technologii jakość wykonania pojedynczej próby może ulec zwiększeniu co pozwalając zwiększyć doskonałość
 
     Doskonałość = ilość udanych prób / ilość prób
