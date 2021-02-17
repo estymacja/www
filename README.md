@@ -1,3 +1,9 @@
+![logo optymizacja.pl](https://logo.optymizacja.pl/1/cover.png)
+## [optymizacja.pl page](https://www.optymizacja.pl/)
++ [logo optymizacja.pl page](https://logo.optymizacja.pl/)
++ [docs optymizacja.pl page](https://docs.optymizacja.pl/)
+
+
 # Definicja - znaczenie optymizacji
 
 ## Optymizacja
@@ -18,6 +24,7 @@ Stosuje się optymalizacje jedno i wielokryterialne. Optymalizacja wielokryteria
 Optymalizacja jest także zdefiniowana w badaniach operacyjnych, gdzie wykorzystywana jest do rozwiązywania praktycznych problemów (np. ekonomicznych).
 
 W programowaniu komputerowym optymalizacja oprogramowania oznacza działania mające na celu programu komputerowego, tak by czas jego działania oraz używane zasoby komputerowe takie jak pamięć, użycie procesora, ilość przesyłanych danych potrzebnych do jego uruchomienia i działania były jak najmniejsze. Działaniami w tym zakresie są optymalizacja kodu wynikowego, wybór wydajniejszych algorytmów i kodowania danych. 
+
 
 # Wzory - wyznaczanie optymizacji
 
