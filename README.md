@@ -1,5 +1,5 @@
 ![logo optymizacja.pl](https://logo.optymizacja.pl/1/cover.png)
-## [optymizacja.pl page](https://www.optymizacja.pl/)
+## [optymizacja.pl](https://www.optymizacja.pl/)
 + [logo optymizacja.pl page](https://logo.optymizacja.pl/)
 + [docs optymizacja.pl page](https://docs.optymizacja.pl/)
 
@@ -18,8 +18,6 @@ optymizacja «spowodowanie optymalnego przebiegu danego procesu technologicznego
 
 
 Optymalizacja – metoda wyznaczania najlepszego (optymalnego) rozwiązania (poszukiwanie ekstremum funkcji) z punktu widzenia określonego kryterium (wskaźnika) jakości (np. kosztu, drogi, wydajności).
-
-Stosuje się optymalizacje jedno i wielokryterialne. Optymalizacja wielokryterialna występuje w wielu różnych dziedzinach: w projektowaniu produktu i procesu produkcji, finansów, projektowaniu samolotów, w przemyśle chemicznym, projektowaniu samochodów, wszędzie tam gdzie optymalne decyzje muszą być podjęte w obecności kompromisów pomiędzy dwoma lub więcej sprzecznymi celami. Przykładem wielokryterialnej optymalizacji jest maksymalizacja zysków i minimalizacji kosztów produktu, maksymalizacja wydajności przy ograniczaniu zużycia paliwa pojazdu, czy też obniżenie masy urządzenia przy jednoczesnej maksymalizacji wytrzymałości poszczególnych jego komponentów.
 
 Optymalizacja jest także zdefiniowana w badaniach operacyjnych, gdzie wykorzystywana jest do rozwiązywania praktycznych problemów (np. ekonomicznych).
 
