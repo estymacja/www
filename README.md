@@ -28,9 +28,10 @@ W programowaniu komputerowym optymalizacja oprogramowania oznacza działania maj
 
 
 ## Efektywność wytwarzania (pojedynczej osoby w zespole)
-Efektywność wytwarzania jest zależna od doświadczenia i doskonałości w powtarzaniu a także efektywności iteracji
+Efektywność wytwarzania jest zależna od doświadczenia i doskonałości danej osoby procesach iteracji
+Specjalizacja procesu oraz niska Awaryjność systemu i prosota zadania/zmiany wpływa na efektywnosć wykonania iteracji.
 
-    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność
+    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
 ## Doświadczenie osoby w kontekście 1 iteracji
 Doświadczenie jest równe 1, gdy jest najwyższe, gdy dana osoba miała możliwość uczestniczenia na każdym etapie w procesie wytwarzania
@@ -39,8 +40,9 @@ Doświadczenie jest równe 1, gdy jest najwyższe, gdy dana osoba miała możliw
     
 *w iteracji
 
-## Doskonałość wykonania jednej czynności/procesu
+## Doskonałość wykonania jednej czynności/procesu, 
 Doskonałość jest równa 1, jest tym mniejsza im mniej razy dane zadanie zostało wykonane poprawnie,
+dotyczy pisania testów, czy iteracji wytwarzania funkcjonalności, gdzie po zdefiniowaniu od razu kod działa
 Gdy użyjemy lepszej technologii jakość wykonania pojedynczej próby może ulec zwiększeniu co pozwalając zwiększyć doskonałość
 
     Doskonałość = ilość udanych prób / ilość prób
@@ -60,17 +62,21 @@ pozwala też określić na ile wystepuje potrzeba modularyzacji procesów wytwar
 *ilość procesów składających się na 1 iterację
 
 
-## Awaryjność systemu
+## Awaryjność środowiska systemu
 Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza samym procesem
 
     Awaryjność = ilość kontrolowanych warstw / ilość warstw  w ogóle (mających wpływ na rezultat)
 
+## Prostota
+Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrasta poziom trudności
+
+    Prostota = (ilość już wykonanych dokładnie takich samych funkcjonalnie zadań / ilości różnic ) / ilość warstw/miejsc które te różnice dotyczą 
 
 
 # Obliczenia Efektywność wytwarzania na przykładach
-
     
-    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność
+    Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+
 
 
 ## W procesie wytwarzania oprogramowania opartego o framework laravel są 3 warstwy dotyczące funkcjonowania oprogramowania oraz 3 warstwy dotyczące uruchomienia
@@ -78,18 +84,58 @@ Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza
 ### Warstwy oprogramowania:
 
 + Frontend
+    +   Biblioteki zewnętrzne
 + Backend
     +   framework, warstwa struktury
     +   warstwa kodu, język programowania
     +   warstwa danych, bazy danych
-    
+    +   Biblioteki zewnętrzne
+
 + Environment
     +   system
     +   usługi   
         +   http apache
         +   mysql baza danych
 
+
 ### Sposób wytwarzania:
-+
++ specyfikacja
+    + przykladowe dane wejsciowe    
++ pisanie
 
 
+### Zespół programistyczny
+1 osoba, 
+Doświadczenie = 1
+bo to autor, który już wykonywał prototyp
+
+Doskonałość = 0.2
+gdyż to faza wytwarzania i potrzeba przetstować różne warianty
+
+Specjalizacja = 0.2
+Wiele etapów wytwarzania jest niezdefiniowanych z powodu wielu warstw środowiska
+
+Awaryjność = 3/5 = 0.6
+Biblioteki zewnętrzne oraz srodowisko
+
+Prostota = 0,13
+(2/5) /3 
+
+Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
+
+Efektywność = 1*0.2*0.2*0.6*0.13
+
+1*0,2*0,2*0,6*0,13=0,0031
+1/0,0031=322
+
+To oznacza, że wykonując idealną iterację w ciągu 1 Minuty,
+iteracja wykonywana w zmiennych i trudnych warunkach może zająć 322 razy dłużej,
+
+gdyby było mniej warstw środowiska mająych wpływ na wynik i tego typu zmiany byłyby już wcześniej wykonywane to można by było obniżyć ryzyko o 26 razy
+Doskonałość = 1
+Specjalizacja = 1
+
+0,6*0,13=0,078
+1/0,078=12
+
+322/12=26
