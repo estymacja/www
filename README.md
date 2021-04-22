@@ -80,7 +80,7 @@ pozwala też określić na ile wystepuje potrzeba modularyzacji procesów wytwar
 
 
 ## Awaryjność środowiska systemu
-Prawdopodobieństwo / zdolność do awarii wyniukająca z ilości zmiennych poza samym procesem
+Prawdopodobieństwo / zdolność do awarii wynikająca z ilości zmiennych poza samym procesem
 
     Awaryjność 
     = ilość kontrolowanych warstw / ilość warstw  w ogóle (mających wpływ na rezultat)
