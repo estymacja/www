@@ -1,7 +1,7 @@
 ![logo optymizacja.pl](https://logo.optymizacja.pl/1/cover.png)
-## [optymizacja.pl](https://www.optymizacja.pl/)
-+ [logo optymizacja.pl page](https://logo.optymizacja.pl/)
-+ [docs optymizacja.pl page](https://docs.optymizacja.pl/)
+## [optymizacja](https://optymizacja.github.io/www/)
++ [logo optymizacja](https://optymizacja.github.io/logo/)
++ [docs optymizacja](https://optymizacja.github.io/docs/)
 
 
 # Definicja - znaczenie optymizacji
