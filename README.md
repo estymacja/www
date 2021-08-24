@@ -1,4 +1,5 @@
-![logo optymizacja.pl](https://logo.optymizacja.pl/1/cover.png)
+![logo optymizacja.pl](https://optymizacja.github.io/logo/1/cover.png)
+
 ## [optymizacja](https://optymizacja.github.io/www/)
 + [logo optymizacja](https://optymizacja.github.io/logo/)
 + [docs optymizacja](https://optymizacja.github.io/docs/)
@@ -192,4 +193,12 @@ Efektywność = 1
 to znaczy, że dokonując tej zmiany, nie ma szansy nic się zepsuć, gdyż to nie wpływa na inne warstwy systemu
 Zadanie jest jasno sprecyzowane, nie ma żadnych zależności, dlatego jeśli cykl wykonania normalnie zajmuje 1 Minutę, to 
 nie wystąpi żadno ryzyko/błąd mogący zwielokrotnić ilość iteracji
+
+
+---
++ [edit](https://github.com/optymizacja/www/edit/main/README.md)
+
+```
+https://github.com/optymizacja/www.git
+```
 
