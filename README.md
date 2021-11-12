@@ -7,6 +7,9 @@
 
 # Definicja - znaczenie optymizacji
 
+## Estymacja
+https://eventmodeling.org/posts/what-is-event-modeling/
+
 ## Optymizacja
 [optymizacja – Słownik języka polskiego PWN](https://sjp.pwn.pl/sjp/optymizacja;2495887)
 
