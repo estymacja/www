@@ -1,8 +1,8 @@
-![logo optymizacja.pl](https://optymizacja.github.io/logo/1/cover.png)
+![logo optymizacja.pl](https://estymacja.github.io/logo/1/cover.png)
 
-## [optymizacja](https://optymizacja.github.io/www/)
-+ [logo optymizacja](https://optymizacja.github.io/logo/)
-+ [docs optymizacja](https://optymizacja.github.io/docs/)
+## [estymacja](https://estymacja.github.io/www/)
++ [logo estymacja](https://estymacja.github.io/logo/)
++ [docs estymacja](https://estymacja.github.io/docs/)
 
 
 # Definicja - znaczenie optymizacji
@@ -199,9 +199,9 @@ nie wystąpi żadno ryzyko/błąd mogący zwielokrotnić ilość iteracji
 
 
 ---
-+ [edit](https://github.com/optymizacja/www/edit/main/README.md)
++ [edit](https://github.com/estymacja/www/edit/main/README.md)
 
 ```
-https://github.com/optymizacja/www.git
+https://github.com/estymacja/www.git
 ```
 
