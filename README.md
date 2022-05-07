@@ -1,29 +1,28 @@
 
-## [estymacja](https://estymacja.github.io/www/)
+# [estymacja](https://estymacja.github.io/www/)
+
 + [logo estymacja](https://estymacja.github.io/logo/)
 + [docs estymacja](https://estymacja.github.io/docs/)
 
 
-# Definicja - znaczenie optymizacji
+## Definicje
 
-## Estymacja
+### Estymacja
 https://eventmodeling.org/posts/what-is-event-modeling/
 
-## Optymizacja
+### Optymizacja
 [optymizacja – Słownik języka polskiego PWN](https://sjp.pwn.pl/sjp/optymizacja;2495887)
 
 optymizacja «spowodowanie optymalnego przebiegu danego procesu technologicznego» 
 
-
-
-## Optymalizacja
+### Optymalizacja
 [Optymalizacja – Wikipedia, wolna encyklopedia](https://pl.wikipedia.org/wiki/Optymalizacja)
 
 Metoda wyznaczania najlepszego (optymalnego) rozwiązania (poszukiwanie ekstremum funkcji) z punktu widzenia określonego kryterium (wskaźnika) jakości (np. kosztu, drogi, wydajności).
 W programowaniu komputerowym optymalizacja oprogramowania oznacza działania mające na celu programu komputerowego, tak by czas jego działania oraz używane zasoby komputerowe takie jak pamięć, użycie procesora, ilość przesyłanych danych potrzebnych do jego uruchomienia i działania były jak najmniejsze. Działaniami w tym zakresie są optymalizacja kodu wynikowego, wybór wydajniejszych algorytmów i kodowania danych. 
 
 
-# Wzory - wyznaczanie optymizacji
+# Optymizacja estymacji projektów IT
 
 Jest to przykładowy sposób podejścia do porównania efektywności wykonania zadania przez różne osoby
 Dzięki czemu można określić nie tylko trudność zdania, ale też potencjał do szybszego wykonania przez konkretną osobę.
@@ -96,13 +95,18 @@ Prostota wykonania jest 1, gdy jest najprościej lub część ułamka gdy wzrast
                 / ilość warstw(zależnych miejsc), które te różnice dotyczą 
 
 
-# Obliczenia Efektywność wytwarzania na przykładach
+
+
+## Obliczenia Efektywność wytwarzania na przykładach
     
     Efektywność = Doświadczenie * Doskonałość * Specjalizacja * Awaryjność * Prostota
 
 
 
-## W procesie wytwarzania oprogramowania opartego o framework laravel są 3 warstwy dotyczące funkcjonowania oprogramowania oraz 3 warstwy dotyczące uruchomienia
+
+##  Przykład
+
+W procesie wytwarzania oprogramowania opartego o framework laravel są 3 warstwy dotyczące funkcjonowania oprogramowania oraz 3 warstwy dotyczące uruchomienia
 
 ### Warstwy oprogramowania:
 
