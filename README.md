@@ -1,4 +1,3 @@
-![logo optymizacja.pl](https://estymacja.github.io/logo/1/cover.png)
 
 ## [estymacja](https://estymacja.github.io/www/)
 + [logo estymacja](https://estymacja.github.io/logo/)
@@ -205,3 +204,4 @@ nie wystąpi żadno ryzyko/błąd mogący zwielokrotnić ilość iteracji
 https://github.com/estymacja/www.git
 ```
 
+![logo optymizacja.pl](https://estymacja.github.io/logo/1/cover.png)
